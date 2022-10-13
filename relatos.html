@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Newreports | Relatos</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/menu.css">
+	<link rel="stylesheet" href="assets/css/paginas.css">
+
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<link rel="manifest" href="manifest.json">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="msapplication-TileImage" content="images/icons/icon_144.png">
+	<meta name="msapplication-TileColor" content="#31506F">
+	<meta name="theme-color" content="#4D5360" />
+	<link rel="shortcut icon" sizes="192x192" href="images/icons/144.png">
+	<link rel="shortcut icon" sizes="128x128" href="images/icons/128.png">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content=" New Reports">
+	<link rel="apple-touch-icon" href="images/icons/144.png">
+	<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icons/180.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="images/icons/167.png">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="icon" type="image/png" href="images/icons/144.png">
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+
+			<!-- Logo -->
+			<div class="logo">
+				<img src="images/icons/512.png" alt="Newreports" />
+				<h1>Relatos</h1>
+			</div>
+
+			<!-- Nav -->
+			<nav>
+				<ul>
+					<li><a href="#menu">Menu</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<!-- Menu -->
+	<nav id="menu" class="menu-titulo">
+		<h2>Menu</h2>
+		<ul class="menu-style">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Abrir Relatos</a></li>
+			<li><a href="relatos-abertos.html">Relatos Abertos</a></li>
+			<li><a href="visao-valores.html">Visão e Valores</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="three" class="wrapper style1 fade-up">
+			<div class="inner">
+				<h1>Novo relato</h1>
+				<p>Tem algo a relatar ? Conte para gente.</p>
+				<div class="split style1">
+					<section>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half">
+									<label for="name">Nome</label>
+									<input type="text" name="name" id="name" required />
+								</div>
+								<div class="field half">
+									<label clafor="telefone">Número da Matrícula</label>
+									<input type="text" name="number" id="number" />
+								</div>
+								<div class="field half">
+									<label for="email">Nível de Criticidade</label>
+									<div class="nivel">
+										<div class="col-4 col-12-small">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Baixo</label>
+										</div>
+										<div class="col-4 col-12-small">
+											<input type="radio" id="demo-priority-normal" name="demo-priority">
+											<label for="demo-priority-normal">Normal</label>
+										</div>
+										<div class="col-4 col-12-small">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">Alto</label>
+										</div>
+									</div>
+								</div>
+								<div class="field half">
+									<div class="col-12">
+										<label for="email">Tipo de Relato: </label>
+										<select name="demo-category" id="demo-category" required>
+											<option value="">- Tipo -</option>
+											<option value="1">Quase Acidente</option>
+											<option value="1">Incidente</option>
+											<option value="1">Acidente</option>
+											<option value="1">Recusa Tarefa de Risco</option>
+											<option value="1">Com Danos Materias</option>
+										</select>
+									</div>
+								</div>
+								<div class="field half">
+									<div class="col-12">
+										<label for="email">Escolha o setor do ocorrido: </label>
+										<select name="demo-category" id="demo-category" required>
+											<option value="">- Setor -</option>
+											<option value="1">Dobra</option>
+											<option value="1">Laminação</option>
+											<option value="1">Administração</option>
+											<option value="1">Estoque</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="field half">
+									<div class="foto">
+										<label for="email">Capturar cenário : </label>
+										<section>
+											<h3>Acessando arquivos</h3>
+											<input id="img-input" type="file" name="imagem" accept=".png,.jpg,.jpeg" style="height: 380px; width: 298px;">
+											<!-- O accept=".png,.jpg,.jpeg" serve para você restringir as extensões. Neste input só iremos aceitar extensões png, jpg e jpeg  -->
+
+											<div>
+												<p>Resultado:</p>
+												<img src="https://via.placeholder.com/200" alt="" class="resultado">
+											</div>
+										</section>
+										<section>
+											<h3>Acessando a camera</h3>
+											<p><video autoplay style="height: 380px; width: 298px;"></video></p>
+
+											<button class="take-photo">Tirar Foto</button>
+											<button class="change-cam">Mudar Camera</button>
+											<button class="change-cam">Desativar câmera</button>
+
+
+
+											<div>
+												<p>Resultado:</p>
+												<img src="https://via.placeholder.com/200" alt=""
+													class="resultado-camera">
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+
+							<div class="field">
+								<label for="message">Descreva o relato: </label>
+								<textarea name="message" id="message" rows="5"></textarea>
+							</div>
+				</div>
+
+				<ul class="actions">
+					<li><a href="" class="button submit">Enviar Relato</a></li>
+				</ul>
+
+				</form>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; Untitled. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/camera.js"></script>
+
+</body>
+
+</html>

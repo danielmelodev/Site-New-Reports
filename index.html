@@ -11,6 +11,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/menu.css">
+    
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
@@ -35,20 +37,37 @@
 </head>
 
 <body class="is-preload">
-
-    <!-- Sidebar -->
-    <section id="sidebar">
+    <header id="header">
         <div class="inner">
-            <nav>
-                <ul>
-                    <li><a href="#intro">Bem vindo ao New Reports</a></li>
-                    <li><a href="#one">Nosso foco</a></li>
-                    <li><a href="#two">O que fazemos</a></li>
-                    <li><a href="#three">Vamos relatar</a></li>
-                </ul>
-            </nav>
+
+            <!-- Logo -->
+                <div class="logo ">
+                    <img src="images/icons/512.png" alt="Newreports" />
+                    <h1>New Reports</h1>
+                </div>
+
+            <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+
         </div>
-    </section>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu" class="menu-titulo">
+        <h2 >Menu</h2>
+        <ul class="menu-style">
+            <li><a href="#">Home</a></li>
+            <li><a href="relatos.html">Abrir Relatos</a></li>
+            <li><a href="relatos-abertos.html">Relatos Abertos</a></li>
+            <li><a href="visao-valores.html">Visão e Valores</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
 
     <!-- Wrapper -->
     <div id="wrapper">
@@ -56,7 +75,6 @@
         <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up">
             <div class="inner">
-                <h1>New Reports</h1>
                 <p>Um aplicativo que tem como principal função
                     relatar cenários que possam causar acidentes,
                     prejuízos financeiros, contaminação ambiental e
@@ -68,7 +86,7 @@
 
                     todos.</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button scrolly">Saiba mais</a></li>
+                    <li><a href="relatos.html" class="button scrolly">Abrir Relatos</a></li>
                 </ul>
             </div>
         </section>
@@ -81,10 +99,9 @@
                 <div class="content">
                     <div class="inner">
                         <h2>Segurança</h2>
-                        <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
-                            erat malesuada quis. Aliquam dapibus.</p>
+                        <p>O New Reports tem como objetivo prevenir a integridade física das pesssoas.</p>
                         <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
+                            <li><a href="generic.html" class="button">Saiba mais</a></li>
                         </ul>
                     </div>
                 </div>
@@ -94,10 +111,9 @@
                 <div class="content">
                     <div class="inner">
                         <h2>Meio Ambiente</h2>
-                        <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
-                            erat malesuada quis. Aliquam dapibus.</p>
+                        <p>Nosso projeto contribui para que as empresas não utilizem papéis e relatem cenários de contaminação ambiental.</p>
                         <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
+                            <li><a href="generic.html" class="button">Saiba mais</a></li>
                         </ul>
                     </div>
                 </div>
@@ -107,10 +123,9 @@
                 <div class="content">
                     <div class="inner">
                         <h2>Manutenção</h2>
-                        <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
-                            erat malesuada quis. Aliquam dapibus.</p>
+                        <p>Tem como objetivo otimizar tempo de produção por meio de relatos que contribuiem com maior agilidade na comunicação de problemas nas máquinas.</p>
                         <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
+                            <li><a href="generic.html" class="button">Saiba mais</a></li>
                         </ul>
                     </div>
                 </div>
@@ -120,149 +135,14 @@
                 <div class="content">
                     <div class="inner">
                         <h2>Limpeza</h2>
-                        <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
-                            erat malesuada quis. Aliquam dapibus.</p>
+                        <p>Através do nosso projeto, é possível sinalizar os ambientes de trabalho que necessitam de limpezas e organizações.</p>
                         <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
+                            <li><a href="generic.html" class="button">Saiba mais</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
         </section>
-
-        <!-- Two -->
-        <section id="two" class="wrapper style3 fade-up">
-            <div class="inner">
-                <h2>O New Reports foi feito para você</h2>
-                <p>Pensamos no melhor jeito e com os melhores recursos de oferecer a você a melhor maneira de expor suas
-                    dores. </p>
-                <div class="features">
-                    <section>
-                        <span class="icon solid major fa-code"></span>
-                        <h3>Feito em linguagem de alto nível</h3>
-                        <p>Criado com os melhores e mais novos recursos, para proporcionar a você a melhor esperiência.
-                        </p>
-                    </section>
-                    <section>
-                        <span class="icon solid major fa-lock"></span>
-                        <h3>Segurança</h3>
-                        <p>Tenha seu ambiente de relatos com segurança total, feito inteiramente com criptografia de
-                            ponta a ponta</p>
-                    </section>
-                    <section>
-                        <span class="icon solid major fa-cog"></span>
-                        <h3>Configurações</h3>
-                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
-                            ultricies erat dapibus.</p>
-                    </section>
-                    <section>
-                        <span class="icon solid major fa-desktop"></span>
-                        <h3>Designer</h3>
-                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
-                            ultricies erat dapibus.</p>
-                    </section>
-                    <section>
-                        <span class="icon solid major fa-link"></span>
-                        <h3>Compartilhamento</h3>
-                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
-                            ultricies erat dapibus.</p>
-                    </section>
-                    <section>
-                        <span class="icon major fa-gem"></span>
-                        <h3>Valorizamos a vida </h3>
-                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
-                            ultricies erat dapibus.</p>
-                    </section>
-                </div>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Saiba Mais</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Three -->
-        <section id="three" class="wrapper style1 fade-up">
-            <div class="inner">
-                <h2>Novo relato</h2>
-                <p>Tem algo a relatar ? Conte para gente.</p>
-                <div class="split style1">
-                    <section>
-                        <form method="post" action="#">
-                            <div class="fields">
-                                <div class="field half">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" required/>
-                                </div>
-                                <div class="field half">
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" required/>
-                                </div>
-                                <div class="field half">
-                                    <div class="col-12">
-                                        <label for="email">Escolha o setor do ocorrido: </label>
-                                        <select name="demo-category" id="demo-category" required>
-                                            <option value="">- Setor -</option>
-                                            <option value="1">Dobra</option>
-                                            <option value="1">Laminação</option>
-                                            <option value="1">Administração</option>
-                                            <option value="1">Estoque</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="field half">
-                                    <div class="foto">
-                                        <label for="email">Capturar cenário : </label>
-                                        <video controls autoplay style="height:200px; width: 250px;"></video>
-                                        <p><button type="button" onclick="getStream('video')" aria-required="">Abrir câmera </button></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label for="message">Descreva o relato: </label>
-                                <textarea name="message" id="message" rows="5"></textarea>
-                            </div>
-                </div>
-
-                <ul class="actions">
-                    <li><a href="" class="button submit">Enviar Relato</a></li>
-                </ul>
-
-                </form>
-        </section>
-        <section>
-            <ul class="contact">
-                <li>
-                    <h3>Endereço</h3>
-                    <span>12345 Somewhere Road #654<br />
-                        Brasília, TN 00000-0000<br />
-                        Brasil</span>
-                </li>
-                <li>
-                    <h3>Email</h3>
-                    <a href="#">user@untitled.tld</a>
-                </li>
-                <li>
-                    <h3>Telefone</h3>
-                    <span>(000) 000-0000</span>
-                </li>
-                <li>
-                    <h3>Social</h3>
-                    <ul class="icons">
-                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
-                        </li>
-                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </div>
-    </div>
-    </section>
 
     </div>
 
@@ -275,6 +155,12 @@
             </ul>
         </div>
     </footer>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
+
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -285,12 +171,8 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
-
-    <script type="module">
-        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-        const el = document.createElement('pwa-update');
-        document.body.appendChild(el);
-    </script>
+    <script src="assets/js/menu.js"></script>
+    
 
 </body>
 

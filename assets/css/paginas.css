@@ -1,0 +1,11 @@
+.nivel{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contato{
+  text-align: center;
+  margin: 50px 0;
+}
